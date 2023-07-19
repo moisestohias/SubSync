@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Text Editor Playground</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <div id="buttons">
+    <input type="file" class="load-button" id="load-text-button" accept=".json">
+    <input type="file" class="load-button" id="load-audio-button" accept=".mp3">
+  </div>
+
+  <span id="Duration"></span>
+  <span id="CurrentTime"></span>
+  <div id="audio-player-div"> <audio controls src="${audioURL}" id="audio"></audio> </div>
+  <div id="editor" contenteditable="true"></div>
+  <script src="New.js"></script>
+</body>
+</html>

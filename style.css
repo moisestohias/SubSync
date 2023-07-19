@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 1.3em 'Roboto', sans-serif;;
+  background-color: #F8E8EE;
+}
+
+#editor {
+  height: calc(100vh - 100px);
+  overflow: auto;
+  padding: 10px;
+}
+
+#audio-player-div {
+  width: 100%;
+  padding: 0px;
+  color: #F9F5F6;
+}
+
+#audio{
+  width: 100%;
+  height:50px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: pink;
+}
+
+.highlight {
+  background-color: #F2BED1;
+  color: #FF2171;
+  border-radius: 7px;
+}
